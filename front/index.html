@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="#"/>
+</head>
+<body>
+    <div id="MainContainer">
+        <div id="MainWindow">
+            <p id="Title">TO DO LIST</p>
+                <div>
+                    <label for="name">Type your new task here:</label>
+                    <input autocomplete="off" name="taskString" id="TaskField" placeholder="Add new task here...">
+                    <button id="AddTaskBtn" onclick="newElement()">Add</button>
+                </div>
+            <div id="TaskList">
+                    <ul id="myUL" class="fade">
+                    </ul>
+            </div>
+        </div>
+  </div>
+</body>
+</html>
